@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+        <title>note book</title>
+    </head>
+    <body>
+        <header>
+            <img src="./img/logo.svg" alt="Feather">
+            <img src="./img/logo2.svg" alt="Note">
+        </header>
+        <main>
+            <h1>All Notes</h1>
+            <section id="notes">
+                
+
+            </section>
+            <section id="note-maker">
+                <div class="note-maker-header">
+                    <button id="back"><span class="mdi mdi-chevron-left"></span> Go Back</button>
+                    <div class="note-maker-header-left">
+                        <button id="delet"><span class="mdi mdi-trash-can-outline"></span></button>
+                        <button id="cancel">Cancel</button>
+                        <button id="save">Save Note</button>
+                    </div>
+                </div>
+                <input type="text" placeholder="Note Name" id="note-name" required>
+            </section>
+
+        </main>
+        <footer>
+            <nav>
+                <button id="add"><span class="mdi mdi-cat"></span></button>
+                <hr>
+                <div class="footer-btn">
+                    <a><span class="mdi mdi-pasta" id="active"></span></a>
+                    <a><span class="mdi mdi-pasta"></span></a>
+                    <a><span class="mdi mdi-pasta"></span></a>
+                    <a><span class="mdi mdi-pasta"></span></a>
+                    <a><span class="mdi mdi-pasta"></span></a>
+                </div>
+
+            </nav>
+        </footer>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
